@@ -1,0 +1,334 @@
+/* HOME */
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #223e80 !important;
+}
+
+.navbar.a {
+    color: white;
+}
+
+@media all and (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+}
+
+
+.navbar a:link {
+    color: #23B485;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: #23B485;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #223e80;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.navbar a:active {
+    color: #23B485;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+/* banner  */
+
+
+.header {
+    position: relative;
+    background-color: white;
+    height: 900px;
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.divcontent {
+    margin-top: 120px;
+    color: #223e80;
+    width: 400px;
+    height: auto;
+}
+
+.btn-color {
+    color: #23B485;
+    border: #223e80 1px solid;
+}
+
+.btn-color:hover {
+    background-color: #23B485;
+    color: #223e80;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: #23B485;
+}
+
+.btn-link:hover{
+    color: #223e80;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+/* banner */
+
+/* pic hover div */
+
+
+.main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.lines {
+    color: #23B485;
+}
+
+.sectionhead {
+    color: #223e80;
+    margin-bottom: 30px;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+.img {
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+}
+
+.imgoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    overflow: hidden;
+    width: 500px;
+    height: 40px;
+    transition: .5s ease;
+    margin-left: 12px;
+}
+
+.imgcontainer:hover .imgoverlay {
+    height: 100%;
+}
+
+.imgtext {
+    color: white;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    margin-top: 65px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* geo location */
+
+
+
+.location {
+    width: 500px;
+    height: 280px;
+    margin-bottom: 100px;
+    background-color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.footheads {
+    color: #223e80;
+}
+
+.head-link{
+    color: #223e80;
+    text-decoration: none;
+}
+
+.head-link:hover{
+    color: #23B485;
+    text-decoration: none;
+}
+
+/* HOME PAGE END */
+
+/* ABOUT US */
+.aboutusdiv{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.aboutusmain{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutushead{
+    color: #223e80;
+}
+
+.formarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divcontent1{
+    justify-content: center;
+    vertical-align: middle;
+    border: #23B485 1px solid;  
+}
+
+.divcontent2{
+    justify-content: center;
+    vertical-align: middle;
+    border-left: #23B485 1px solid;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.divhead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #223e80;
+}
+
+
+.contactus{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+.locationmap{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inner-img {
+    transition: 0.3s;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+  
+.inner-img:hover {
+    transform: scale(1.5, 1.5);
+  }
+
+.picrow{
+    margin-left: 50px;
+}
+
+/* Form Validation */
+
+#name-mandatory{
+    display:none;
+}
+
+#email-mandatory{
+    display:none;
+}
+
+#phone-mandatory{
+    display:none;
+}
+
+#org-mandatory{
+    display:none;
+}
+
+#msg-mandatory{
+    display:none;
+}
